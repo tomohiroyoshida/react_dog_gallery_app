@@ -10,11 +10,11 @@ const Header = () => {
   )
 }
 
-interface K {
+interface ProsWithUrl {
   url: string
 }
 
-const Image = (props: K) => {
+const Image = (props: ProsWithUrl) => {
   const { url } = props
   return (
     <div className="card">
